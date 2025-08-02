@@ -225,7 +225,7 @@
 .site-header .form-control {
     background-color: rgba(255,255,255,0.1);
     border: 1px solid rgba(255,255,255,0.2);
-    color: #ffffff;
+    color: black;
     padding: 0.5rem 0.75rem;
     min-width: 180px;
     max-width: 250px;
@@ -241,7 +241,7 @@
 .site-header .form-control:focus {
     background-color: rgba(255,255,255,0.15);
     border-color: rgba(255,255,255,0.3);
-    color: #ffffff;
+    color: #000000;
     box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.25);
 }
 
@@ -517,6 +517,7 @@
     }
 }
 
+/* Additional fixes to prevent menu breaking */
 @media (min-width: 992px) {
     .site-header .navbar-collapse {
         display: flex !important;
@@ -539,7 +540,7 @@
     }
 }
 
-/* Bootstrap dropdown positioning  - ensure it appears on the right */
+/* Bootstrap dropdown positioning fix - ensure it appears on the right */
 .site-header .more-menu-dropdown .dropdown-menu {
     position: absolute !important;
     transform: none !important;
