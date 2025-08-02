@@ -1,0 +1,57 @@
+// Variables
+@import 'variables';
+
+// Bootstrap overrides
+$primary: var(--code95-main-color);
+
+// Section styles
+@import 'main-news';
+@import 'egy-news';
+@import 'features';
+@import 'top-stories';
+
+// Global styles
+body {
+    font-family: var(--code95-body-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--code95-heading-font);
+}
+
+// Header styles
+.site-header {
+    transition: all 0.3s ease;
+    
+    &.sticky-top {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+}
+
+// Section styles
+.section-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+// Overlay gradient
+.overlay-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.8));
+}
+
+// Responsive
+@media (max-width: 767px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+} 

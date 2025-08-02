@@ -1,0 +1,13 @@
+.top-stories-section {
+    .story-number {
+        font-weight: 700;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+    
+    .top-story-item {
+        &:last-child {
+            border-bottom: none !important;
+        }
+    }
+} 

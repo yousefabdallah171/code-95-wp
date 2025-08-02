@@ -1,0 +1,27 @@
+/*
+ * ========================================
+ * CODE95 WORDPRESS THEME
+ * ========================================
+ * 
+ * Theme Name: Code95
+ * Theme URI: https://code95.com
+ * Author: Code95 Development Team
+ * Author URI: https://code95.com
+ * Description: A modern news magazine WordPress theme with full customizer control
+ * Version: 1.0.0
+ * License: GPL v2 or later
+ * Text Domain: code95
+ * 
+ * This is the main stylesheet file that WordPress uses to identify the theme.
+ * The actual CSS styles are compiled from SCSS files in the assets/scss/ directory.
+ * 
+ * Features:
+ * - Modern news magazine layout
+ * - Full WordPress customizer integration
+ * - Responsive design
+ * - Bootstrap-based grid system
+ * - Custom post queries and views
+ * - Section ordering controls
+ * 
+ * ========================================
+ */ 

@@ -1,0 +1,30 @@
+.egy-news-section {
+    .egy-news-slider {
+        padding: 0 50px;
+    }
+    
+    .egy-news-item {
+        padding: 0 15px;
+        
+        .post-thumbnail {
+            height: 150px;
+            overflow: hidden;
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    
+    .slider-prev,
+    .slider-next {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} 

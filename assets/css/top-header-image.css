@@ -1,0 +1,54 @@
+/* Top Header Image Styling */
+.top-header-image-container {
+    background-color: #ffffff;
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.top-header-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.top-header-image {
+    width: 813px;
+    height: 98px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .top-header-image {
+        width: 100%;
+        max-width: 813px;
+        height: auto;
+        aspect-ratio: 813/98;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-header-image-container {
+        padding: 16px 0;
+    }
+    
+    .top-header-image-wrapper {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-header-image-container {
+        padding: 12px 0;
+    }
+    
+    .top-header-image-wrapper {
+        gap: 6px;
+    }
+} 
